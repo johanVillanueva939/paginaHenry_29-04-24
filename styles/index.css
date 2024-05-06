@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: sans-serif;
+}
+h2{
+    font-size: 80px;
+}
+#text{
+    width: 500px;
+    padding-bottom: 20px;
+    line-height: 2;
+}
+button{
+    background: #FD4C5C;
+    border: none;
+    border-radius: 100px;
+    padding: 15px 47px;
+    color: whitesmoke;
+}
+button:hover{
+    background: #FD4C5C;
+    color: whitesmoke;
+    transform: scale();
+    cursor:pointer;
+}   
+#colors{
+    background: linear-gradient(to right, #f39762, #ff1f44, #fa4261);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+header{
+    background-image: url(../assets/angel-jimenez.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mus{
+    font-family: sans-serif;
+    font-size: 200px;
+    color: aliceblue;
+}
+.sect-one{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 70px 100px;
+    
+}
+#img-one{
+    height: 600px;
+}
+.sect-two{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 70px;
+}
+#img-two{
+    height: 600px;
+}
+.sect-three{
+    display: flex;
+    background: url(../assets/john-raptis.png);
+    background-size: cover;
+    height: 80vh;
+    justify-content: flex-end;
+    align-items: center;
+}
+.textThree{
+    color: whitesmoke;
+    margin: 0 60px;
+}
+footer{
+    display: flex;
+    background-color:#FD4C5C;
+    height: 470px;
+    align-items: center;
+}
+.textFour{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 0px 0px;
+    width: 900px;
+}
+#txt{
+    color: whitesmoke;
+    line-height: 2;
+    font-size: 15px;
+}
+#txt-pri{
+    color: whitesmoke;
+    line-height: 7;
+    font-size: 15px;
+}
+#fo{
+    margin-left: 70px;
+}
+.rights{
+    display: flex;
+    align-items: center ;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    padding-left: 125px;
+    padding-top: 20px;
+    color: whitesmoke;
+    font-size: 10px;
+}
+hr{
+    width: 1200px;
+    color: whitesmoke;
+}
+.hrr{
+    padding-left: 125px;
+    width: 1100px;
+}
+
+
+
